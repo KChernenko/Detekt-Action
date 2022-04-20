@@ -1,6 +1,6 @@
-name: 'Run detekt with reviewdog'
+name: 'Run detekt with reviewdog (Git fix)'
 description: '🐶 Run detekt with reviewdog on pull requests to enforce best practices'
-author: 'Alexey Egin (alaegin)'
+author: 'Original author: (alaegin). Fixed version: KChernenko'
 
 inputs:
   github_token:
