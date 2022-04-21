@@ -1,6 +1,6 @@
 # Github Action for running detekt with reviewdog
 
-![GitHub release (latest by date)](https://github.com/betterme-dev/Detekt-Action/releases)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/betterme-dev/Detekt-Action)
 
 This action allows running [detekt](https://github.com/detekt/detekt) with [reviewdog](https://github.com/reviewdog/reviewdog) on pull requests
 
@@ -110,7 +110,7 @@ jobs:
           ref: ${{ github.head_ref }}
 
       - name: detekt
-        uses: betterme-dev/Detekt-Action@v1.19.2
+        uses: betterme-dev/Detekt-Action@v1.19.3
         with:
           github_token: ${{ secrets.github_token }}
           detekt_config: detekt-config.yml # Change config path
